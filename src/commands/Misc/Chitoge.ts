@@ -8,7 +8,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'chitoge',
+            command: 'cruella',
             description: 'Displays the info',
             category: 'misc',
             usage: `${client.config.prefix}chitoge`,
@@ -24,7 +24,7 @@ return void M.reply(await request.buffer('https://i.pinimg.com/736x/ca/e7/8a/cae
 MessageType.image,
             undefined,
             undefined,
-            `🌟 *Chitoge* 🌟 \n\n🍀 *Description:* Maintained Fork of WhatsApp Botto Void\n\n🌐 *URL:* https://github.com/ShinNouzen/Chitoge#readme\n\n📂 *Repository:* https://github.com/ShinNouzen/Chitoge`
+            `🖤 *Cruella* 🤍 \n\n🍀 *Description:* Maintained Fork of WhatsApp Botto Void\n\n🌐 *Repository:* `
            
 
 )
